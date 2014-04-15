@@ -1,0 +1,23 @@
+{
+    "messageLostItem": "你的<%= itemText() %>坏了。",
+    "messageTaskNotFound": "找不到任务。",
+    "messageTagNotFound": "找不到标签。",
+    "messagePetNotFound": "找不到该宠物。",
+    "messageFoodNotFound": "找不到该食物。",
+    "messageCannotFeedPet": "不能喂这只宠物。",
+    "messageAlreadyMount": "你已经有这个坐骑了。请喂另一只宠物。",
+    "messageEvolve": "你驯养了<%= egg %>，去骑几圈吧！",
+    "messageLikesFood": "<%= egg %>很喜欢<%= foodText() %>！",
+    "messageDontEnjoyFood": "<%= egg %>吃了<%= foodText() %>但似乎并没有很喜欢牠的食物。",
+    "messageBought": "已经购买 <%= itemText() %>",
+    "messageUnEquipped": "<%= itemText() %> 卸下",
+    "messageMissingEggPotion": "你错过了药水或者宠物蛋",
+    "messageAlreadyPet": "You already have that pet. Try hatching a different combination!",
+    "messageHatched": "Your egg hatched! Visit your stable to equip your pet.",
+    "messageNotEnoughGold": "金币不够",
+    "messageTwoHandled": "<%= gearText() %> is two-handled",
+    "messageDropFood": "You've found <%= dropArticle %><%= dropText() %>! <%= dropNotes() %>",
+    "messageDropEgg": "You've found a <%= dropText() %> Egg! <%= dropNotes() %>",
+    "messageDropPotion": "You've found a <%= dropText() %> Hatching Potion! <%= dropNotes() %>",
+    "messageFoundQuest": "你发现了新任务: \"<%= questText() %>\"!"
+}

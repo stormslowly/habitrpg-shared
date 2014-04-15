@@ -1,0 +1,13 @@
+{
+    "limitedEdition": "限量版",
+    "winterColors": "冬天颜色",
+    "annoyingFriends": "Annoying Friends",
+    "annoyingFriendsText": "Got snowballed <%= snowballs %> times by party members.",
+    "valentineCard": "情人节卡",
+    "adoringFriends": "Adoring Friends",
+    "adoringFriendsText": "Aww, you and your friend must really care about each other! Sent or received <%= cards %> Valentine's Day cards.",
+    "limited30Apr": "Available for purchase until April 30th (but permanently in your options if purchased).",
+    "polarBear": "北极熊",
+    "turkey": "火鸡",
+    "polarBearPup": "小北极熊"
+}
