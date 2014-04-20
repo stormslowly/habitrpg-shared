@@ -36,7 +36,7 @@
     "xml": "(XML)",
     "json": "(JSON)",
     "customDayStart": "Custom Day Start",
-    "24HrClock": "24小时表",
+    "24HrClock": "24小时制",
     "clockInfo": "HabitRPG defaults to check and reset your dailies at midnight each day. You can customize that here (Enter number between 0 and 24).",
     "misc": "其他",
     "showHeader": "Show Header",
@@ -44,7 +44,7 @@
     "oldPass": "Old Password",
     "newPass": "新密码",
     "confirmPass": "确定新密码",
-    "dangerZone": "危险区域",
+    "dangerZone": "危险!!!",
     "resetText1": "This resets your entire account - your tasks will be deleted and your character will start over.",
     "resetText2": "This is highly discouraged because you'll lose historical data, which is useful for graphing your progress over time. However, some people find it useful in the beginning after playing with the app for a while.",
     "deleteText": "Are you sure? This will delete your account forever, and it can never be restored! You will need to register a new account to use HabitRPG again. Banked or spent Gems will not be refunded. If you're absolutely certain, type <strong><%= deleteWord %></strong> into the text box below.",
@@ -62,5 +62,5 @@
     "enterNumber": "请输入一个0到24的数字",
     "fillAll": "请填写所有栏目",
     "passSuccess": "成功更改密码",
-    "difficulty": "Difficulty"
+    "difficulty": "困难"
 }
