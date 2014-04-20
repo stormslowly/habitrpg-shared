@@ -689,7 +689,7 @@ api.quests =
       ]
       gp: 25
       exp: 125
-      
+
   hedgehog:
     text: "The Hedgebeast"
     notes: 'Hedgehogs are a funny group of animals. They are some of the most affectionate pets a Habiteer could own. But rumor has it, if you feed them milk after midnight, they grow quite irritable. And fifty times their size. And @Inventrix did just that. Oops.'
@@ -811,28 +811,28 @@ _.each api.quests, (v,key) ->
 repeat = {m:true,t:true,w:true,th:true,f:true,s:true,su:true}
 api.userDefaults =
   habits: [
-    {type: 'habit', text: '1h Productive Work', notes: 'When you create a new Habit, you can click the Edit icon and choose for it to represent a positive habit, a negative habit, or both. For some Habits, like this one, it only makes sense to gain points.', value: 0, up: true, down: false, attribute: 'per' }
-    {type: 'habit', text: 'Eat Junk Food', notes: 'For others, it only makes sense to *lose* points.', value: 0, up: false, down: true, attribute: 'con'}
-    {type: 'habit', text: 'Take The Stairs', notes: 'For the rest, both + and - make sense (stairs = gain, elevator = lose).', value: 0, up: true, down: true, attribute: 'str'}
+    {type: 'habit', text: '认真工作一小时', notes: '当你创建一个习惯时，你可以通过编辑按钮选择确定这个是一个好习惯还是坏习惯。对于这个习惯来说是个好习惯，通过完成它可以获得经验和奖励.', value: 0, up: true, down: false, attribute: 'per' }
+    {type: 'habit', text: '吃垃圾食品', notes: '像这类习惯，要是做了它的话就只会扣分了.', value: 0, up: false, down: true, attribute: 'con'}
+    {type: 'habit', text: '走楼梯', notes: '这样的习惯呢，如果走楼梯的话，就会加分；乘电梯就是减分.', value: 0, up: true, down: true, attribute: 'str'}
   ]
 
   dailys: [
-    {type: 'daily', text: '1h Personal Project', notes: 'All tasks default to yellow when they are created. This means you will take only moderate damage when they are missed and will gain only a moderate reward when they are completed.', value: 0, completed: false, repeat: repeat, attribute: 'per' }
-    {type: 'daily', text: 'Exercise', notes: 'Dailies you complete consistently will turn from yellow to green to blue, helping you track your progress. The higher you move up the ladder, the less damage you take for missing and less reward you receive for completing the goal.', value: 3, completed: false, repeat: repeat, attribute: 'str' }
-    {type: 'daily', text: '45m Reading', notes: 'If you miss a daily frequently, it will turn darker shades of orange and red. The redder the task is, the more experience and gold it grants for success and the more damage you take for failure. This encourages you to focus on your shortcomings, the reds.', value: -10, completed: false, repeat: repeat, attribute: 'int' }
+    {type: 'daily', text: '1小时 个人项目', notes: '所有人日常任务刚被创建的时候都是黄色的。如果你当天没有完成这些日常任务的话，那就会受到伤害(扣除血量)；如果按时完成的话，就能获得经验和奖励.', value: 0, completed: false, repeat: repeat, attribute: 'per' }
+    {type: 'daily', text: '做运动', notes: '如果你每天坚持完成日常任务，任务的颜色就会从黄色慢慢变成绿色。你的完成度越高，那你忘记做日常任务的伤害就会越小，完成任务的收获也会相应减少.', value: 3, completed: false, repeat: repeat, attribute: 'str' }
+    {type: 'daily', text: '45分钟阅读', notes: '如果你经常忘记做一些日常，那这个任务的颜色就会变成桔色甚至红色。任务的颜色越红，拿你完成它将会获得更多的奖励，如果没有完成将会承受跟多的伤害。红色是警告哦！', value: -10, completed: false, repeat: repeat, attribute: 'int' }
   ]
 
   todos: [
-    {type: 'todo', text: 'Call Mom', notes: 'While not completing a to-do in a set period of time will not hurt you, they will gradually change from yellow to red, thus becoming more valuable. This will encourage you to wrap up stale To-Dos.', value: -3, completed: false, attribute: 'per' }
+    {type: 'todo', text: '打电话给妈妈', notes: '如果在规定的时间没有完成待办的话，这个任务也会给你带来伤害; 待办任务变成红色，催促你尽快完成任务.', value: -3, completed: false, attribute: 'per' }
   ]
 
   rewards: [
-    {type: 'reward', text: '1 Episode of Game of Thrones', notes: 'Custom rewards can come in many forms. Some people will hold off watching their favorite show unless they have the gold to pay for it.', value: 20 }
-    {type: 'reward', text: 'Cake', notes: 'Other people just want to enjoy a nice piece of cake. Try to create rewards that will motivate you best.', value: 10 }
+    {type: 'reward', text: '1小时Dota2游戏', notes: '你可以定制自己的奖励，比如你赚足了一定的金币才能玩一会游戏.', value: 20 }
+    {type: 'reward', text: '吃块奶油蛋糕', notes: '你吃吃货的话也可以给自己定一个这样的奖励。为自己定一些有激励吧，每天都提高一点', value: 10 }
   ]
 
   tags: [
-    {name: 'morning'}
-    {name: 'afternoon'}
-    {name: 'evening'}
+    {name: '上午'}
+    {name: '下午'}
+    {name: '晚上'}
   ]
