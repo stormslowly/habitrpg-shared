@@ -1,11 +1,11 @@
 {
     "languageName": "中文（简体）",
     "stringNotFound": "找不到字串“<%= string %>”。",
-    "titleIndex": "HabitRPG | 你的生活游戏",
+    "titleIndex": "RPGLife | 游戏你的人生",
     "habitica": "Habitica",
     "expandToolbar": "展开列表",
     "collapseToolbar": "隐藏列表",
-    "formattingMarkdown": "Markdown formatting allowed",
+    "formattingMarkdown": "支持Markdown",
     "achievements": "成就",
     "modalAchievement": "获得成就！",
     "special": "特殊",
@@ -56,5 +56,5 @@
     "serverUnreach": "暂时连不上服务器。",
     "seeConsole": "(see Chrome console for more details).",
     "error": "错误",
-    "endTour": "End Tour"
+    "endTour": "关闭"
 }
